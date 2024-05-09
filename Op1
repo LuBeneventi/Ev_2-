@@ -1,0 +1,6 @@
+nombre = input("Nombre: ")
+while nombre.isalpha() != True or len(nombre) < 5 or len(nombre) > 12:
+    print("Nombre no valido, ¡solo letras!")
+    print(f"El largo es {len(nombre)}")
+    nombre = input("Nombre: ")
+print(f"Tu nombre es {nombre}")
